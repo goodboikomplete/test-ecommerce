@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #DEDEDE;
+  color: #333;
+  }
+
+img {
+  max-width: 50%;
+  height: auto;
+}
+
+h1{
+  text-align: center;
+  padding: 30px;
+}
+
+header{
+  height: 140px;
+  background-color: #f0ccfd;
+  margin: 0;
+  padding: 20px;
+  position: relative;
+}
+
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  float: right;
+}
+
+nav li{
+  list-style: none;
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+
+li a{
+  padding: 5px;
+  background-color: white;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.first {
+  text-align: center;
+  font-weight: normal;
+}
+
+#ours {
+  max-width: 650px;
+  padding: 20px;
+  margin: 30px auto;
+  background-color: #FFF;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, .1);
+  overflow: hidden;
+  display: flex;
+}
+
+#ours-page{
+  max-width: 650px;
+  padding: 20px;
+  margin: 30px auto;
+  background-color: #FFF;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, .1);
+  overflow: hidden;
+  display: flex;
+}
+
+#description{
+  padding-top: 8%;
+}
+
+.texte-ours{
+  text-align: center;
+  padding-top: 15px;
+}
+
+
+
+.animal h4 {
+  margin: 0 0 6px 0;
+}
+
+.imgours{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cart1{
+  cursor: pointer;
+}
+
+.add-cart{
+  margin-top: 100%;
+}
+
+.cart1:hover{
+  background-color: #f0ccfd;
+}
+
+#ptdr{
+  font-size: 30px;
+  color: black;
+}
+
+
+
